@@ -1,0 +1,196 @@
+
+.header{
+    background: #199EB8;
+    height:90px;
+    margin: 0;
+    padding: 2px 0;
+    line-height: 1;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.navbar-nav a{
+    padding: 50px 40px 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+   color:#fff;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+
+    outline: none;
+    
+}
+
+.navbar-nav{
+/*margin-left: px;*/
+    
+}
+.nav-item{
+    padding: 0px 5px;
+}
+
+.dropdown-menu a:hover {
+  background: #199EB8;
+  transition: 0.3s;
+}
+
+.dropdown-menu a {
+  color: #333;
+  transition: none;
+  padding: 10px 15px;
+}
+navbar-nav a:hover, .navbar-nav li:hover > a, .dropdown-menu a:hover{
+     color: RGB(255,40,0);
+} 
+.span-logo{
+    color:#fff;
+    font-size: 15px;
+    font-family: sans-serif;
+   
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+border-color: #FCC201;
+}
+.Noticeboard,.upload{
+    height: 490px;
+}
+.upload{
+    
+}
+.notice{
+    text-align: center;
+    color: #005598;
+    text-decoration: underline;
+}
+
+.impo{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.mission,.vision{
+    text-align: center;
+    color: #D82B22;
+    text-decoration: underline;
+    
+}
+.miss,.vis{
+    text-align: center;
+   color: #005598;
+    
+}
+.notic{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font: 15px;
+    color:#199EB8; 
+   
+    
+}
+/*
+td a:hover{
+   color: #FCC201; 
+}
+*/
+
+/*courses css*/
+
+.nav-tabs a:hover{
+ color: RGB(255,40,0);
+ font-family: "Roboto", Helvetica, Arial, sans-serif; 
+ font-weight: 400;
+}
+fieldset{
+    border: 4px solid #FCC201;
+    padding: 20px;
+    width: 500px;
+    border-radius: 6px;
+}
+fieldset h2{
+    color: #199EB8;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*admin section css begins here */
+
+.adminloginform{
+    margin-top: 150px;
+}
+/*
+div.upload-wrapper {
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+*/
+ 
+
+input[type="submit"] {
+  border: 3px solid #555;
+  color: white;
+  background: #666;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+ 
+input[type="submit"]:hover {
+  background: #555;
+}
+ 
+label[for="file-upload"] {
+  padding: 0.7rem;
+  display: inline-block;
+  background: #fa5200;
+  cursor: pointer;
+  border: 3px solid #ca3103;
+  border-radius: 0 5px 5px 0;
+  border-left: 0;
+}
+label[for="file-upload"]:hover {
+  background: #ca3103;
+}
+#notification{
+    color: red;
+}
+ 
+.file-names {
+  padding: 0.7rem 3rem 0.7rem 0.7rem;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #ffb543;
+  color: black;
+  border: 3px solid #f0980f;
+  border-radius: 5px 0 0 5px;
+  border-right: 0;
+}
+ #file-name{
+            color: aqua;
+        }
+
+.post fieldset{
+   border-color:#199EB8; 
+    width: 600px;
+    align-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
